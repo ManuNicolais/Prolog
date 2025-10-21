@@ -15,3 +15,11 @@ Prolog - Programacion Declarativa
 
 ## 🥈Practico 2
   10 Ejercicios mas avanzados sobre Prolog 
+
+## 🏅PARCIAL - Adivina el número
+	El sistema piensa un número dentro de un rango (ej: 1 a 100).
+	El jugador propone un número y el sistema responde con pistas:
+	“Es mayor”
+	“Es menor”
+	“¡Correcto!”
+	Requiere reglas de comparación y control de intentos.

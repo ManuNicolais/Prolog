@@ -1,0 +1,270 @@
+1. Sistema experto de diagnóstico médico básico
+
+Desarrollar un sistema que, a partir de síntomas ingresados por el usuario, pueda sugerir posibles enfermedades.
+
+El sistema debe:
+
+Tener una base de hechos con enfermedades y sus síntomas.
+
+Preguntar al usuario sobre sus síntomas.
+
+Inferir qué enfermedad(es) son más probables.
+
+Ofrecer recomendaciones generales (ejemplo: "consultar a un especialista").
+
+
+2. Asistente de planificación de viajes
+
+Crear un sistema que sugiera destinos de viaje en base a:
+
+Estación del año.
+
+Presupuesto disponible.
+
+Preferencias del viajero (playa, montaña, ciudad, cultura).
+
+El sistema debe proponer al menos 2 opciones y justificar su elección.
+
+
+3. Recomendador de películas
+
+Construir un sistema que:
+
+Guarde hechos de películas con género, año y clasificación.
+
+Permita al usuario indicar sus preferencias (género, duración, año).
+
+Devuelva una o más recomendaciones con breve explicación.
+
+
+4. Sistema de tutor inteligente para matemáticas
+
+El sistema debe:
+
+Almacenar reglas para resolver operaciones básicas (suma, resta, multiplicación, división).
+
+Explicar paso a paso la resolución de un cálculo.
+
+Permitir al alumno preguntar: “¿Cómo resuelvo 24 ÷ 6?” y obtener la explicación.
+
+
+5. Sistema experto de soporte técnico
+
+El sistema debe asistir a un usuario con problemas de computadora:
+
+Detectar si el problema es de hardware o software.
+
+Guiar al usuario con preguntas como: “¿Enciende la computadora?”, “¿Aparece un mensaje de error?”.
+
+Llegar a una posible causa y dar recomendaciones.
+
+
+6. Clasificador de animales
+
+Almacenar hechos sobre animales (mamíferos, aves, reptiles, etc.) y sus características.
+
+El sistema debe poder responder preguntas como:
+
+“¿Qué animales son mamíferos?”
+
+“¿Qué animal pone huevos y vuela?”
+
+Permitir inferir automáticamente la clasificación de un animal a partir de características dadas.
+
+
+7. Planificador de horarios de estudio
+
+El sistema debe organizar un plan de estudio en base a:
+
+Cantidad de horas disponibles.
+
+Materias a preparar.
+
+Nivel de prioridad de cada materia.
+
+Debe devolver un plan detallado (ejemplo: “Lunes 2h Matemáticas, 1h Historia”).
+
+
+8. Sistema de recomendación de alimentos saludables
+
+A partir de las condiciones de un usuario (ejemplo: “soy vegetariano”, “quiero perder peso”), el sistema debe:
+
+Filtrar opciones de alimentos.
+
+Recomendar comidas saludables.
+
+Justificar la elección (“Recomendado porque es bajo en calorías y alto en proteínas”).
+
+
+9. Asesor de compra de computadoras
+
+El sistema debe:
+
+Tener una base con diferentes configuraciones de PCs (gaming, oficina, programación).
+
+Preguntar al usuario para qué la quiere usar y cuál es su presupuesto.
+
+Recomendar una configuración óptima.
+
+
+10. Sistema de reglas para juegos de lógica
+
+Diseñar un sistema que maneje juegos de lógica (ejemplo: adivinar un número, resolver un acertijo, jugar a “Quién es quién” con características).
+
+Debe:
+
+Almacenar reglas de juego.
+
+Guiar al usuario en pasos.
+
+Responder consultas hasta llegar a la solución.
+
+
+Juegos:
+
+1. Adivina el número
+
+El sistema piensa un número dentro de un rango (ej: 1 a 100).
+
+El jugador propone un número y el sistema responde con pistas:
+
+“Es mayor”
+
+“Es menor”
+
+“¡Correcto!”
+
+Requiere reglas de comparación y control de intentos.
+
+
+2. Quién es quién (versión reducida)
+
+El sistema tiene una base de personajes con características (gafas, sombrero, color de pelo, etc.).
+
+El jugador piensa en un personaje y el sistema hace preguntas cerradas (sí/no).
+
+A través de las respuestas, el sistema elimina candidatos hasta adivinar el personaje.
+
+
+3. Juego de acertijos
+
+Se define una serie de enigmas con pistas y soluciones.
+
+El sistema plantea una adivinanza al usuario y verifica si la respuesta es correcta.
+
+Puede dar pistas extra si el jugador falla varias veces.
+
+
+4. Tres en línea (versión textual)
+
+El tablero se representa con hechos o listas.
+
+El sistema permite alternar movimientos entre dos jugadores (humano vs humano o humano vs IA básica).
+
+Reglas determinan cuándo alguien gana o si hay empate.
+
+
+5. Adivina el animal
+
+El jugador piensa en un animal.
+
+El sistema hace preguntas como: “¿Tiene plumas?”, “¿Vive en el agua?”, etc.
+
+Basado en las respuestas, el sistema adivina el animal.
+
+Si no lo adivina, puede pedir al jugador que lo enseñe para mejorar la base de conocimiento.
+
+
+6. Mastermind (versión simple con colores/números)
+
+El sistema genera una combinación secreta (ej: 3 números del 1 al 6).
+
+El jugador intenta adivinar la combinación.
+
+El sistema responde con:
+
+cuántos números están en la posición correcta
+
+cuántos números están en la combinación pero en otra posición
+
+
+7. Juego de preguntas y respuestas (Trivia)
+
+El sistema guarda preguntas con opciones múltiples.
+
+El jugador responde y el sistema dice si es correcto.
+
+Lleva un marcador de puntaje.
+
+
+8. Laberinto lógico
+
+Se modela un pequeño mapa (habitaciones y pasillos).
+
+El jugador está en una posición y debe llegar a la meta.
+
+El sistema permite moverse con comandos (“norte”, “sur”, etc.) y verifica si la salida es posible.
+
+
+9. Piedra, papel o tijera
+
+El jugador elige una opción.
+
+El sistema elige aleatoriamente otra.
+
+Se determina el ganador según reglas definidas.
+
+
+10. Detective (resolver un crimen)
+
+El sistema tiene una base de sospechosos con características (hora, lugar, móvil).
+
+El jugador hace preguntas y el sistema responde con hechos lógicos.
+
+Al final, el jugador debe adivinar quién es el culpable.
+
+Juegos mas desafiantes:
+
+1. Sudoku (versión reducida)
+
+El sistema presenta un tablero incompleto (ej: 4x4 en lugar de 9x9).
+
+El jugador propone números y el sistema valida si cumple las reglas.
+
+Puede tener un modo “resolver automáticamente” usando reglas de inferencia.
+
+
+2. Adivina la palabra
+
+El sistema tiene un diccionario de palabras.
+
+El jugador intenta adivinar letra por letra (similar al ahorcado).
+
+El sistema muestra el avance y cuenta los intentos.
+
+
+3. Juego de detectives con pistas encadenadas
+
+Se plantea un caso donde las pistas llevan a deducir otras pistas.
+
+Ejemplo: “Si estaba en la biblioteca a las 7, no pudo estar en el parque a la misma hora”.
+
+El sistema debe deducir la verdad a partir de hechos y reglas.
+
+
+4. Crucigrama lógico
+
+El sistema almacena palabras y pistas.
+
+El jugador elige un casillero y pide una pista.
+
+Si responde bien, el sistema llena la palabra.
+
+
+5. 20 preguntas
+
+El sistema intenta adivinar lo que el jugador piensa (objeto, animal, persona).
+
+Formula preguntas de sí/no hasta llegar a una conclusión.
+
+Se basa en un árbol de decisión.
